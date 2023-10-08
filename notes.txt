@@ -1,0 +1,9 @@
+# Could not get proper functioning with requirements.txt. Utilized a similar requirements.txt file from a recent project. Use requirements2.txt
+
+#changed app import from db to app. Placed db in models import. (seed.py, Line 4, Line 5)
+
+# Modified show.html { extending detail.html } to inherit general user info from message instead of from user to allow for 'likes' to show outside user info. (Preventing having to re-write the whole page just to show liked messages.)
+
+# In test file, db url could not include hyphen. Generated error. Changed URL name to "warlber_test"
+
+# Had to input app.app_context() in order to run tests properly with context to curren_app. 
